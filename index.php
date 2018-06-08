@@ -2,7 +2,8 @@
 <html lang="en">
 <style>
 </style>
-<script src="js/myscripts.js">
+<script src="js/myscripts2.js">
+
 </script>
 <head>
   <title>MyLogistis</title>
@@ -20,7 +21,7 @@
       <li class="active" onclick="myFunction1()"><a href="#">Home</a></li>
       <li><a href="#" onclick="myFunction3()">Contact Us</a></li>
       <li><a href="#" >How it works</a></li>
-      <!-- <li><a href="#">Tutorial</a></li> -->
+      <li><a href="#" style="visibility:hidden" onclick="addData()" id='afterLogShow'">Add data(Expenses)</a></li>
     </ul>
 	<ul class="nav navbar-nav navbar-right" style="padding-right:25px">
       <li><a href="#" id='afterlogged1' onclick="registration()"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
